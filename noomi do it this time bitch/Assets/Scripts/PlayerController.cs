@@ -1,14 +1,11 @@
-﻿// arms sometimes stay in arch position when you try to tuck, idk why this is
-// he can't jump off the ground very hard anymore :( sad
-
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-    public GameObject head, torso, leftArm, rightArm, leftFemur, rightFemur, leftLowerLeg, rightLowerLeg, leftFoot, rightFoot; // get game objects from the scene
+    public GameObject head, torso, leftArm, rightArm, leftFemur, rightFemur, leftLowerLeg, rightLowerLeg, leftFoot, rightFoot, leftHand, rightHand, bar; // get game objects from the scene
     HingeJoint leftBarJoint, rightBarJoint, leftShoulder, rightShoulder, neck, leftHip, rightHip, leftKnee, rightKnee, leftAnkle, rightAnkle; // init hinge joints for each
     JointSpring leftShoulderSpring, rightShoulderSpring, neckSpring, leftHipSpring, rightHipSpring, leftKneeSpring, rightKneeSpring, leftAnkleSpring, rightAnkleSpring; // init joint springs for each joint
 
@@ -16,13 +13,14 @@ public class PlayerController : MonoBehaviour
     public float damp; //spring damper, also plays into the strength factor
 
     bool onBar; // is the player currently on the bar or not?
+    bool distanceThreshold; // did the player leave the bar?
 
     // Start is called before the first frame update
     void Start()
     {
-        
         initJoints();
         onBar = true;
+        distanceThreshold = false;
         // no longer need to set max angular velocity higher because there is a way to do that in project settings now, much better
     }
 
@@ -100,9 +98,55 @@ public class PlayerController : MonoBehaviour
         rightAnkle.spring = rightAnkleSpring;
     }
 
+    void checkRegrabs()
+    {
+        float leftDistance = Vector3.Distance(bar.transform.position, leftHand.transform.position);
+        float rightDistance = Vector3.Distance(bar.transform.position, rightHand.transform.position);
+
+        if (leftDistance > 1 && rightDistance > 1) // if the player has actually left the bar
+        {
+            distanceThreshold = true;
+        }
+
+        if (distanceThreshold && leftDistance < 0.35 && rightDistance < 0.35)
+        {
+            regrab();
+        }
+    }
+
+    void regrab()
+    {
+        // ignore collisions between arms and bar, otherwise it just doesn't work lol
+        Physics.IgnoreCollision(leftArm.GetComponent<Collider>(), bar.GetComponent<Collider>(), true);
+        Physics.IgnoreCollision(rightArm.GetComponent<Collider>(), bar.GetComponent<Collider>(), true);
+
+        // create joints
+        leftBarJoint = leftArm.AddComponent<HingeJoint>();
+        rightBarJoint = rightArm.AddComponent<HingeJoint>();
+        leftBarJoint.anchor = new Vector3(0, 1, 0);
+        rightBarJoint.anchor = new Vector3(0, 1, 0);
+        leftBarJoint.axis = new Vector3(0, 0, 1);
+        rightBarJoint.axis = new Vector3(0, 0, 1);
+
+        // move to proper spot
+        leftBarJoint.autoConfigureConnectedAnchor = false; // no im doing it myself bitch
+        rightBarJoint.autoConfigureConnectedAnchor = false;
+        leftBarJoint.connectedAnchor = new Vector3(bar.transform.position.x, bar.transform.position.y, 0.3f);
+        rightBarJoint.connectedAnchor = new Vector3(bar.transform.position.x, bar.transform.position.y, -0.3f);
+
+        // reset variables
+        onBar = true;
+        distanceThreshold = false;
+    }
+
     // FixedUpdate is called once every physics frame
     void FixedUpdate()
     {
+        if (!onBar) // if in the air, check potential regrabs
+        {
+            checkRegrabs();
+        }
+
         if (Input.GetKey(KeyCode.R)) {
             // load scene again to reset
             EditorSceneManager.LoadScene("SampleScene");
@@ -114,6 +158,10 @@ public class PlayerController : MonoBehaviour
             Destroy(leftBarJoint);
             Destroy(rightBarJoint);
             onBar = false;
+
+            // want collisions between arms and bar to work again
+            Physics.IgnoreCollision(leftArm.GetComponent<Collider>(), bar.GetComponent<Collider>(), false);
+            Physics.IgnoreCollision(rightArm.GetComponent<Collider>(), bar.GetComponent<Collider>(), false);
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
@@ -129,6 +177,5 @@ public class PlayerController : MonoBehaviour
             // default
             setBodyPosition(150, strength, 0, strength * 2, 120, strength, 0, strength * 2, 30, strength);
         }
-
     }
 }
