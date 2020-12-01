@@ -13,6 +13,10 @@ public class PlayerController : MonoBehaviour
     public HingeJoint[] hingeJoints;
     public JointSpring[] jointSprings;
 
+    public static PlayerController instance;
+
+    public bool shouldArch, shouldTuck, shouldStraight, shouldLetGo, shouldReset;
+
     // Enum for body groups (These correspond to the first position in the hingeJoints and jointSprings arrays
     enum BodyGroup
     {
@@ -48,6 +52,13 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (instance)
+        {
+            Destroy(this);
+        } else
+        {
+            instance = this;
+        }
         initJoints();
         onBar = true;
         lastBarGrabbed = bar1;
@@ -170,20 +181,20 @@ public class PlayerController : MonoBehaviour
         lastBarGrabbed = bar;
     }
 
-    // FixedUpdate is called once every physics frame
-    void FixedUpdate()
+    // Update is called once every frame
+    void Update()
     {
         if (!onBar) // if in the air, check potential regrabs
         {
             checkRegrabs();
         }
 
-        if (Input.GetKey(KeyCode.R)) {
+        if (Input.GetKey(KeyCode.R) || shouldReset) {
             // load scene again to reset
             EditorSceneManager.LoadScene("SampleScene");
         }
 
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow) || shouldLetGo)
         {
             // break joints to let go
             Destroy(leftBarJoint);
@@ -210,7 +221,7 @@ public class PlayerController : MonoBehaviour
 
         }
 
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow) || shouldArch)
         {
             // arch
             if (onBar)
@@ -223,7 +234,7 @@ public class PlayerController : MonoBehaviour
                 setBodyPosition(-10, strength, 30, strength * 2, -20, strength * 3, -30, strength * 2, -30, strength);
             }
         }
-        else if (Input.GetKey(KeyCode.Space) && !onBar) // since tucking makes your hips stronger, don't want to do it on bar
+        else if ((Input.GetKey(KeyCode.Space) || shouldTuck) && !onBar) // since tucking makes your hips stronger, don't want to do it on bar
         {
             // tuck
             setBodyPosition(160, strength, -80, strength * 2, 150, strength * 3, -120, strength * 2, 30, strength);
