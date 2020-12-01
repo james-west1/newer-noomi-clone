@@ -162,20 +162,31 @@ public class PlayerController : MonoBehaviour
             // want collisions between arms and bar to work again
             Physics.IgnoreCollision(leftArm.GetComponent<Collider>(), bar.GetComponent<Collider>(), false);
             Physics.IgnoreCollision(rightArm.GetComponent<Collider>(), bar.GetComponent<Collider>(), false);
+
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            // arch
-            setBodyPosition(-20, strength, 30, strength * 2, -20, strength, -30, strength * 2, -30, strength);
-        } else if (Input.GetKey(KeyCode.Space) && !onBar) // for now, player should only tuck if they are in the air
+            if (onBar)
+            {
+                // weaker arch
+                setBodyPosition(-20, strength, 30, strength * 2, -20, strength, -30, strength * 2, -30, strength);
+            } else
+            {
+                // stronger arch so he can do wall flips and shit
+                setBodyPosition(-20, strength, 30, strength * 2, -20, strength * 3, -30, strength * 2, -30, strength);
+            }
+        }
+        else if (Input.GetKey(KeyCode.Space))
         {
             // tuck
             setBodyPosition(160, strength, -80, strength * 2, 150, strength * 3, -120, strength * 2, 30, strength);
-        } else
+        }
+        else
         {
             // default
             setBodyPosition(150, strength, 0, strength * 2, 120, strength, 0, strength * 2, 30, strength);
         }
+        
     }
 }
