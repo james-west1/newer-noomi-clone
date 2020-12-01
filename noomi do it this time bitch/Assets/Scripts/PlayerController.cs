@@ -92,7 +92,11 @@ public class PlayerController : MonoBehaviour
         }
 
         // Sets damper of all springs, creates list of them which we can iterate with a foreach and edit their damper property
-        new List<JointSpring>(jointSprings).ForEach(i => i.damper = damp);
+        //new List<JointSpring>(jointSprings).ForEach(i => i.damper = damp);
+        for (int i = 0; i < jointSprings.Length; i++)
+        {
+            jointSprings[i].damper = damp;
+        }
         
     }
 
