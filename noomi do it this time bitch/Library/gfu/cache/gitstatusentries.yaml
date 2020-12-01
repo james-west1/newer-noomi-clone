@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-12-01T13:20:50.996-05:00
-  initializedAtString: 2020-12-01T13:20:50.996-05:00
+  lastUpdatedAtString: 2020-12-01T16:05:20.740-05:00
+  initializedAtString: 2020-12-01T16:02:17.001-05:00
   entries:
   - path: noomi do it this time bitch\.vs\noomi do it this time bitch\v16\.suo
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\.vs\noomi
@@ -29,471 +29,399 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: noomi do it this time bitch\Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Assets\Plugins.meta
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins.meta
-    projectPath: Assets\Plugins.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Assets\Plugins\GitHub.meta
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub.meta
-    projectPath: Assets\Plugins\GitHub.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor.meta
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor.meta
-    projectPath: Assets\Plugins\GitHub\Editor.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
     projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\big-logo@2x.png
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\big-logo@2x.png
     projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
     projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\credits.txt
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\credits.txt
     projectPath: Assets\Plugins\GitHub\Editor\credits.txt
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\credits.txt.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\credits.txt.meta
     projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\eula.txt
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\eula.txt
     projectPath: Assets\Plugins\GitHub\Editor\eula.txt
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\eula.txt.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\eula.txt.meta
     projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
     projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
     projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\libsfw.bundle
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\libsfw.bundle
     projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
     projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\libsfw.so
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\libsfw.so
     projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\libsfw.so.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\libsfw.so.meta
     projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
     projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
     projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
     projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
     projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\sfw.net.dll
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\sfw.net.dll
     projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\System.Threading.dll
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\System.Threading.dll
     projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
     projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
     projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\x64.meta
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\x64.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x64.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
     projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\x86.meta
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\x86.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x86.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Assets\Scenes\SampleScene.unity
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Scenes\SampleScene.unity
     projectPath: Assets\Scenes\SampleScene.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: noomi do it this time bitch\Library\APIUpdater\project-dependencies.graph
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\APIUpdater\project-dependencies.graph
-    projectPath: Library\APIUpdater\project-dependencies.graph
+  - path: noomi do it this time bitch\Assets\Scripts\PlayerController.cs
+    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Assets\Scripts\PlayerController.cs
+    projectPath: Assets\Scripts\PlayerController.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -503,177 +431,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: noomi do it this time bitch\Library\Artifacts\09\09a829436e6a01b54455ac548ae9685b
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\09\09a829436e6a01b54455ac548ae9685b
-    projectPath: Library\Artifacts\09\09a829436e6a01b54455ac548ae9685b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\15\1561e9223588c6e6429eeefe1085537a
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\15\1561e9223588c6e6429eeefe1085537a
-    projectPath: Library\Artifacts\15\1561e9223588c6e6429eeefe1085537a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
-    projectPath: Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\37\37d222c852baccf3e70280c2743398d1
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\37\37d222c852baccf3e70280c2743398d1
-    projectPath: Library\Artifacts\37\37d222c852baccf3e70280c2743398d1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\3a\3ad4e221bcb5bbe9a355251043a6018e
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\3a\3ad4e221bcb5bbe9a355251043a6018e
-    projectPath: Library\Artifacts\3a\3ad4e221bcb5bbe9a355251043a6018e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\3f\3f59d4e79203b548cdbe54f2a12facaf
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\3f\3f59d4e79203b548cdbe54f2a12facaf
-    projectPath: Library\Artifacts\3f\3f59d4e79203b548cdbe54f2a12facaf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\44\448be008c25ee7b8756f0912f0292121
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\44\448be008c25ee7b8756f0912f0292121
-    projectPath: Library\Artifacts\44\448be008c25ee7b8756f0912f0292121
+  - path: noomi do it this time bitch\Library\Artifacts\1c\1cc71d86e3693fc08e8cd18541febfa8
+    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\1c\1cc71d86e3693fc08e8cd18541febfa8
+    projectPath: Library\Artifacts\1c\1cc71d86e3693fc08e8cd18541febfa8
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: noomi do it this time bitch\Library\Artifacts\49\49d7c483b780908d306ce9c0164210af
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\49\49d7c483b780908d306ce9c0164210af
-    projectPath: Library\Artifacts\49\49d7c483b780908d306ce9c0164210af
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\4a\4a8b7a3cfdf2329f6e8f7bc662bf84b7
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\4a\4a8b7a3cfdf2329f6e8f7bc662bf84b7
-    projectPath: Library\Artifacts\4a\4a8b7a3cfdf2329f6e8f7bc662bf84b7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\55\552bb1d30089e761d530b1d780a7a7a1
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\55\552bb1d30089e761d530b1d780a7a7a1
-    projectPath: Library\Artifacts\55\552bb1d30089e761d530b1d780a7a7a1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: noomi do it this time bitch\Library\Artifacts\62\6295205f0b5721c9586bf72e46069b2e
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\62\6295205f0b5721c9586bf72e46069b2e
-    projectPath: Library\Artifacts\62\6295205f0b5721c9586bf72e46069b2e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: noomi do it this time bitch\Library\Artifacts\68\680ae412a16fae9ee11e7da5c3d2985a
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\68\680ae412a16fae9ee11e7da5c3d2985a
-    projectPath: Library\Artifacts\68\680ae412a16fae9ee11e7da5c3d2985a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\6d\6d83bcabc76abcde177aaa98eda6d5be
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\6d\6d83bcabc76abcde177aaa98eda6d5be
-    projectPath: Library\Artifacts\6d\6d83bcabc76abcde177aaa98eda6d5be
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\73\73ea1aa0a5f1423d313e8fca63e27f2e
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\73\73ea1aa0a5f1423d313e8fca63e27f2e
-    projectPath: Library\Artifacts\73\73ea1aa0a5f1423d313e8fca63e27f2e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\7f\7fd797cbc0bfa39861c25f6c5531bdaf
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\7f\7fd797cbc0bfa39861c25f6c5531bdaf
-    projectPath: Library\Artifacts\7f\7fd797cbc0bfa39861c25f6c5531bdaf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\8a\8a48bfff2f3e11ffa1e56a38ec07fdaa
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\8a\8a48bfff2f3e11ffa1e56a38ec07fdaa
-    projectPath: Library\Artifacts\8a\8a48bfff2f3e11ffa1e56a38ec07fdaa
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\93\93225fa58d989c86d5e8f3a300f07a32
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\93\93225fa58d989c86d5e8f3a300f07a32
-    projectPath: Library\Artifacts\93\93225fa58d989c86d5e8f3a300f07a32
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\96\9628220a635df66f8ef63321548a7689
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\96\9628220a635df66f8ef63321548a7689
-    projectPath: Library\Artifacts\96\9628220a635df66f8ef63321548a7689
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\97\97cd104caaf85418c9393e1b0f583bd5
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\97\97cd104caaf85418c9393e1b0f583bd5
-    projectPath: Library\Artifacts\97\97cd104caaf85418c9393e1b0f583bd5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\9a\9a2c2dd91ac45105973052dafccbad9c
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\9a\9a2c2dd91ac45105973052dafccbad9c
-    projectPath: Library\Artifacts\9a\9a2c2dd91ac45105973052dafccbad9c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\ab\abe24928036d2b47a1fda2cd4afb0c0d
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\ab\abe24928036d2b47a1fda2cd4afb0c0d
-    projectPath: Library\Artifacts\ab\abe24928036d2b47a1fda2cd4afb0c0d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\b4\b483924648a9e8eb6dd936c6fc1ce4d0
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\b4\b483924648a9e8eb6dd936c6fc1ce4d0
-    projectPath: Library\Artifacts\b4\b483924648a9e8eb6dd936c6fc1ce4d0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\be\be120b9810034cd42bfdde35769d71d6
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\be\be120b9810034cd42bfdde35769d71d6
-    projectPath: Library\Artifacts\be\be120b9810034cd42bfdde35769d71d6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: noomi do it this time bitch\Library\Artifacts\c4\c4bb48828e6abe50c49364012641274a
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\c4\c4bb48828e6abe50c49364012641274a
-    projectPath: Library\Artifacts\c4\c4bb48828e6abe50c49364012641274a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\e7\e79d14b4a4cdfa5fbc9da9baebed4800
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\e7\e79d14b4a4cdfa5fbc9da9baebed4800
-    projectPath: Library\Artifacts\e7\e79d14b4a4cdfa5fbc9da9baebed4800
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\ee\eeb9d07aafd4621fd8e0a53b30da3edf
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\ee\eeb9d07aafd4621fd8e0a53b30da3edf
-    projectPath: Library\Artifacts\ee\eeb9d07aafd4621fd8e0a53b30da3edf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Artifacts\f7\f7c3dccb87fe3bce1546fba2b4a43e36
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\f7\f7c3dccb87fe3bce1546fba2b4a43e36
-    projectPath: Library\Artifacts\f7\f7c3dccb87fe3bce1546fba2b4a43e36
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: noomi do it this time bitch\Library\Artifacts\fb\fbc605844cc688726a5115316df40247
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\fb\fbc605844cc688726a5115316df40247
-    projectPath: Library\Artifacts\fb\fbc605844cc688726a5115316df40247
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\Collab\Cache\Window.yml
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Collab\Cache\Window.yml
-    projectPath: Library\Collab\Cache\Window.yml
+  - path: noomi do it this time bitch\Library\Artifacts\be\bea0b5f2575bb6e03be151b8bc3bf8f0
+    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\Artifacts\be\bea0b5f2575bb6e03be151b8bc3bf8f0
+    projectPath: Library\Artifacts\be\bea0b5f2575bb6e03be151b8bc3bf8f0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -689,21 +455,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: noomi do it this time bitch\Library\gfu\cache\gitlocks.yaml
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -711,20 +465,20 @@ MonoBehaviour:
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: noomi do it this time bitch\Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: noomi do it this time bitch\Library\gfu\cache\repoinfo.yaml
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: noomi do it this time bitch\Library\SceneVisibilityState.asset
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
@@ -737,51 +491,39 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: noomi do it this time bitch\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: noomi do it this time bitch\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
     projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: noomi do it this time bitch\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: noomi do it this time bitch\Library\ShaderCache\EditorEncounteredVariants
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\ShaderCache\EditorEncounteredVariants
     projectPath: Library\ShaderCache\EditorEncounteredVariants
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: noomi do it this time bitch\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: noomi do it this time bitch\Library\shadercompiler-UnityShaderCompiler.exe1.log
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\shadercompiler-UnityShaderCompiler.exe1.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: noomi do it this time bitch\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: noomi do it this time bitch\Library\SourceAssetDB
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: noomi do it this time bitch\Library\StateCache\SceneView\94\9402790981924a8ca80535a7cc8697c1.json
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Library\StateCache\SceneView\94\9402790981924a8ca80535a7cc8697c1.json
-    projectPath: Library\StateCache\SceneView\94\9402790981924a8ca80535a7cc8697c1.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -792,27 +534,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: noomi do it this time bitch\obj\Debug\.NETFramework,Version=v4.7.1.AssemblyAttributes.cs
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\obj\Debug\.NETFramework,Version=v4.7.1.AssemblyAttributes.cs
-    projectPath: obj\Debug\.NETFramework,Version=v4.7.1.AssemblyAttributes.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: noomi do it this time bitch\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: noomi do it this time bitch\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: noomi do it this time bitch\Temp\UnityLockfile
     fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: noomi do it this time bitch\Temp\UnityTempFile-1d96b55c5d52ce647a7ebbc60bc8e021
+    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Temp\UnityTempFile-1d96b55c5d52ce647a7ebbc60bc8e021
+    projectPath: Temp\UnityTempFile-1d96b55c5d52ce647a7ebbc60bc8e021
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: noomi do it this time bitch\Temp\UnityTempFile-8b9c155a0d9eb8e4e9dc1f9d8f4007c2
+    fullPath: C:\Users\matth\Desktop\newer-noomi-clone\noomi do it this time bitch\Temp\UnityTempFile-8b9c155a0d9eb8e4e9dc1f9d8f4007c2
+    projectPath: Temp\UnityTempFile-8b9c155a0d9eb8e4e9dc1f9d8f4007c2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

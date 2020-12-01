@@ -5,7 +5,7 @@ using UnityEditor.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-    public GameObject head, torso, leftArm, rightArm, leftFemur, rightFemur, leftLowerLeg, rightLowerLeg, leftFoot, rightFoot, leftHand, rightHand, bar1, bar2, bar3; // get game objects from the scene
+    public GameObject head, torso, leftArm, rightArm, leftFemur, rightFemur, leftLowerLeg, rightLowerLeg, leftFoot, rightFoot, leftHand, rightHand, bar1; // get game objects from the scene
     public HingeJoint leftBarJoint, rightBarJoint, leftShoulder, rightShoulder, neck, leftHip, rightHip, leftKnee, rightKnee, leftAnkle, rightAnkle; // declare hinge joints for each
     public JointSpring leftShoulderSpring, rightShoulderSpring, neckSpring, leftHipSpring, rightHipSpring, leftKneeSpring, rightKneeSpring, leftAnkleSpring, rightAnkleSpring; // declare joint springs for each joint
 
@@ -117,7 +117,7 @@ public class PlayerController : MonoBehaviour
 
     void checkRegrabs()
     {
-        foreach (GameObject bar in new GameObject[] { bar1, bar2, bar3 })
+        foreach (GameObject bar in GameObject.FindGameObjectsWithTag("bar"))
         {
             float leftDistance = Vector3.Distance(bar.transform.position, leftHand.transform.position);
             float rightDistance = Vector3.Distance(bar.transform.position, rightHand.transform.position);
@@ -196,17 +196,31 @@ public class PlayerController : MonoBehaviour
 
         }
 
+        // Toggles slow motion
+        if (Input.GetKey(KeyCode.Z))
+        {
+            if (Time.timeScale == 1f)
+            {
+                Time.timeScale /= 2f;
+            }
+            else
+            {
+                Time.timeScale *= 2f;
+            }
+
+        }
+
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             // arch
             if (onBar)
             {
                 // weaker arch
-                setBodyPosition(-20, strength, 30, strength * 2, -20, strength, -30, strength * 2, -30, strength);
+                setBodyPosition(-10, strength, 30, strength * 2, -20, strength, -30, strength * 2, -30, strength);
             } else
             {
                 // stronger arch so he can do wall flips and shit
-                setBodyPosition(-20, strength, 30, strength * 2, -20, strength * 3, -30, strength * 2, -30, strength);
+                setBodyPosition(-10, strength, 30, strength * 2, -20, strength * 3, -30, strength * 2, -30, strength);
             }
         }
         else if (Input.GetKey(KeyCode.Space) && !onBar) // since tucking makes your hips stronger, don't want to do it on bar
