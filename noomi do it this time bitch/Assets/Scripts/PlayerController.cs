@@ -5,7 +5,7 @@ using UnityEditor.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-    public GameObject head, torso, leftArm, rightArm, leftFemur, rightFemur, leftLowerLeg, rightLowerLeg, leftFoot, rightFoot, leftHand, rightHand, bar; // get game objects from the scene
+    public GameObject head, torso, leftArm, rightArm, leftFemur, rightFemur, leftLowerLeg, rightLowerLeg, leftFoot, rightFoot, leftHand, rightHand, bar1, bar2, bar3; // get game objects from the scene
     HingeJoint leftBarJoint, rightBarJoint, leftShoulder, rightShoulder, neck, leftHip, rightHip, leftKnee, rightKnee, leftAnkle, rightAnkle; // init hinge joints for each
     JointSpring leftShoulderSpring, rightShoulderSpring, neckSpring, leftHipSpring, rightHipSpring, leftKneeSpring, rightKneeSpring, leftAnkleSpring, rightAnkleSpring; // init joint springs for each joint
 
@@ -15,11 +15,15 @@ public class PlayerController : MonoBehaviour
     bool onBar; // is the player currently on the bar or not?
     bool distanceThreshold; // did the player leave the bar?
 
+    GameObject lastBarGrabbed; // need to store this to determine if the player is about to grab the same bar that they were just on
+    // if so, need to use distance threshold
+
     // Start is called before the first frame update
     void Start()
     {
         initJoints();
         onBar = true;
+        lastBarGrabbed = bar1;
         distanceThreshold = false;
         // no longer need to set max angular velocity higher because there is a way to do that in project settings now, much better
     }
@@ -100,21 +104,34 @@ public class PlayerController : MonoBehaviour
 
     void checkRegrabs()
     {
-        float leftDistance = Vector3.Distance(bar.transform.position, leftHand.transform.position);
-        float rightDistance = Vector3.Distance(bar.transform.position, rightHand.transform.position);
-
-        if (leftDistance > 1 && rightDistance > 1) // if the player has actually left the bar
+        foreach (GameObject bar in new GameObject[] { bar1, bar2, bar3 })
         {
-            distanceThreshold = true;
-        }
+            float leftDistance = Vector3.Distance(bar.transform.position, leftHand.transform.position);
+            float rightDistance = Vector3.Distance(bar.transform.position, rightHand.transform.position);
 
-        if (distanceThreshold && leftDistance < 0.35 && rightDistance < 0.35)
-        {
-            regrab();
+            if (bar == lastBarGrabbed) 
+            {
+                // only allow regrab if player is past distance threshold
+                if (leftDistance > 1 && rightDistance > 1) // if the player has actually left the bar
+                {
+                    distanceThreshold = true;
+                }
+
+                if (distanceThreshold && leftDistance < 0.35 && rightDistance < 0.35)
+                {
+                    regrab(bar);
+                }
+            } else
+            {
+                if (leftDistance < 0.35 && rightDistance < 0.35)
+                {
+                    regrab(bar);
+                }
+            }
         }
     }
 
-    void regrab()
+    void regrab(GameObject bar)
     {
         // ignore collisions between arms and bar, otherwise it just doesn't work lol
         Physics.IgnoreCollision(leftArm.GetComponent<Collider>(), bar.GetComponent<Collider>(), true);
@@ -137,6 +154,7 @@ public class PlayerController : MonoBehaviour
         // reset variables
         onBar = true;
         distanceThreshold = false;
+        lastBarGrabbed = bar;
     }
 
     // FixedUpdate is called once every physics frame
@@ -160,13 +178,14 @@ public class PlayerController : MonoBehaviour
             onBar = false;
 
             // want collisions between arms and bar to work again
-            Physics.IgnoreCollision(leftArm.GetComponent<Collider>(), bar.GetComponent<Collider>(), false);
-            Physics.IgnoreCollision(rightArm.GetComponent<Collider>(), bar.GetComponent<Collider>(), false);
+            Physics.IgnoreCollision(leftArm.GetComponent<Collider>(), lastBarGrabbed.GetComponent<Collider>(), false);
+            Physics.IgnoreCollision(rightArm.GetComponent<Collider>(), lastBarGrabbed.GetComponent<Collider>(), false);
 
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
+            // arch
             if (onBar)
             {
                 // weaker arch
@@ -177,11 +196,11 @@ public class PlayerController : MonoBehaviour
                 setBodyPosition(-20, strength, 30, strength * 2, -20, strength * 3, -30, strength * 2, -30, strength);
             }
         }
-        else if (Input.GetKey(KeyCode.Space))
+        else if (Input.GetKey(KeyCode.Space) && !onBar) // since tucking makes your hips stronger, don't want to do it on bar
         {
             // tuck
             setBodyPosition(160, strength, -80, strength * 2, 150, strength * 3, -120, strength * 2, 30, strength);
-        }
+        } 
         else
         {
             // default
