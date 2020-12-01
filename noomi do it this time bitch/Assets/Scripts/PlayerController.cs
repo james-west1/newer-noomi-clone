@@ -6,8 +6,35 @@ using UnityEditor.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     public GameObject head, torso, leftArm, rightArm, leftFemur, rightFemur, leftLowerLeg, rightLowerLeg, leftFoot, rightFoot, leftHand, rightHand, bar1, bar2, bar3; // get game objects from the scene
-    HingeJoint leftBarJoint, rightBarJoint, leftShoulder, rightShoulder, neck, leftHip, rightHip, leftKnee, rightKnee, leftAnkle, rightAnkle; // init hinge joints for each
-    JointSpring leftShoulderSpring, rightShoulderSpring, neckSpring, leftHipSpring, rightHipSpring, leftKneeSpring, rightKneeSpring, leftAnkleSpring, rightAnkleSpring; // init joint springs for each joint
+    public HingeJoint leftBarJoint, rightBarJoint, leftShoulder, rightShoulder, neck, leftHip, rightHip, leftKnee, rightKnee, leftAnkle, rightAnkle; // declare hinge joints for each
+    public JointSpring leftShoulderSpring, rightShoulderSpring, neckSpring, leftHipSpring, rightHipSpring, leftKneeSpring, rightKneeSpring, leftAnkleSpring, rightAnkleSpring; // declare joint springs for each joint
+
+    // Array declaration
+    public HingeJoint[] hingeJoints;
+    public JointSpring[] jointSprings;
+
+    // Enum for body groups (These correspond to the first position in the hingeJoints and jointSprings arrays
+    enum BodyGroup
+    {
+        Shoulders = 0,
+        Hips = 3,
+        Knees = 5,
+        Ankles = 7
+    }
+
+    // Enum for body parts (These correspond to positions in the hingeJoints and jointSprings arrays
+    enum BodyPart
+    {
+        LeftShoulder = 0,
+        RightShoulder = 1,
+        Neck = 2,
+        LeftHip = 3,
+        RightHip = 4,
+        LeftKnee = 5,
+        RightKnee = 6,
+        LeftAnkle = 7,
+        RightAnkle = 8
+    }
 
     public float strength; //spring strength, determines how strong noomi is
     public float damp; //spring damper, also plays into the strength factor
@@ -30,7 +57,7 @@ public class PlayerController : MonoBehaviour
 
     void initJoints() 
     {
-        // declare joints
+        // Initialize joints (Touching this broke the game lmao, so it stays as is)
         leftBarJoint = leftArm.GetComponent<HingeJoint>();
         rightBarJoint = rightArm.GetComponent<HingeJoint>();
         leftShoulder = torso.GetComponents<HingeJoint>()[0];
@@ -43,63 +70,49 @@ public class PlayerController : MonoBehaviour
         leftAnkle = leftFoot.GetComponent<HingeJoint>();
         rightAnkle = rightFoot.GetComponent<HingeJoint>();
 
-        //declare joint springs
-        leftShoulderSpring = leftShoulder.spring;
-        rightShoulderSpring = rightShoulder.spring;
-        neckSpring = neck.spring;
-        leftHipSpring = leftHip.spring;
-        rightHipSpring = rightHip.spring;
-        leftKneeSpring = leftKnee.spring;
-        rightKneeSpring = rightKnee.spring;
-        leftAnkleSpring = leftAnkle.spring;
-        rightAnkleSpring = rightAnkle.spring;
+        // Initialize the arrays in such a way that makes initializing them easy
+        hingeJoints = new HingeJoint[9] { leftShoulder, rightShoulder, neck, leftHip, rightHip, leftKnee, rightKnee, leftAnkle, rightAnkle };
+        jointSprings = new JointSpring[9] { leftShoulderSpring, rightShoulderSpring, neckSpring, leftHipSpring, rightHipSpring, leftKneeSpring, rightKneeSpring, leftAnkleSpring, rightAnkleSpring };
 
-        //set spring damper because that never really needs to change, as far as i know lol
-        leftShoulderSpring.damper = damp;
-        rightShoulderSpring.damper = damp;
-        neckSpring.damper = damp;
-        leftHipSpring.damper = damp;
-        rightHipSpring.damper = damp;
-        leftKneeSpring.damper = damp;
-        rightKneeSpring.damper = damp;
-        leftAnkleSpring.damper = damp;
-        rightAnkleSpring.damper = damp;
+        // Initialize joint springs
+        for (int i = 0; i < hingeJoints.Length; i++)
+        {
+            jointSprings[i] = hingeJoints[i].spring;
+        }
+
+        // Sets damper of all springs, creates list of them which we can iterate with a foreach and edit their damper property
+        new List<JointSpring>(jointSprings).ForEach(i => i.damper = damp);
+        
     }
 
     // sets body position of player by setting target positions and strengths of all joints
     void setBodyPosition(float shoulderAngle, float shoulderStrength, float neckAngle, float neckStrength, float hipAngle, float hipStrength, float kneeAngle, float kneeStrength, float ankleAngle, float ankleStrength)
     {
-        leftShoulderSpring.targetPosition = shoulderAngle;
-        leftShoulderSpring.spring = shoulderStrength;
-        leftShoulder.spring = leftShoulderSpring;
-        rightShoulderSpring.targetPosition = shoulderAngle;
-        rightShoulderSpring.spring = shoulderStrength;
-        rightShoulder.spring = rightShoulderSpring;
+        setBodyGroupPosition(shoulderAngle, shoulderStrength, BodyGroup.Shoulders);
+        setBodyPartPosition(neckAngle, neckStrength, BodyPart.Neck);
+        setBodyGroupPosition(hipAngle, hipStrength, BodyGroup.Hips);
+        setBodyGroupPosition(kneeAngle, kneeStrength, BodyGroup.Knees);
+        setBodyGroupPosition(ankleAngle, ankleStrength, BodyGroup.Ankles);
+    }
 
-        neckSpring.targetPosition = neckAngle;
-        neckSpring.spring = neckStrength;
-        neck.spring = neckSpring;
+    // Sets a specific body group to set angle and strength
+    void setBodyGroupPosition(float angle, float strength, BodyGroup group)
+    {
+        for (int i = (int) group; i < (int) group + 2; i++)
+        {
+            jointSprings[i].targetPosition = angle;
+            jointSprings[i].spring = strength;
+            hingeJoints[i].spring = jointSprings[i];
+        }
+    }
 
-        leftHipSpring.targetPosition = hipAngle;
-        leftHipSpring.spring = hipStrength;
-        leftHip.spring = leftHipSpring;
-        rightHipSpring.targetPosition = hipAngle;
-        rightHipSpring.spring = hipStrength;
-        rightHip.spring = rightHipSpring;
-
-        leftKneeSpring.targetPosition = kneeAngle;
-        leftKneeSpring.spring = kneeStrength;
-        leftKnee.spring = leftKneeSpring;
-        rightKneeSpring.targetPosition = kneeAngle;
-        rightKneeSpring.spring = kneeStrength;
-        rightKnee.spring = rightKneeSpring;
-
-        leftAnkleSpring.targetPosition = ankleAngle;
-        leftAnkleSpring.spring = ankleStrength;
-        leftAnkle.spring = leftAnkleSpring;
-        rightAnkleSpring.targetPosition = ankleAngle;
-        rightAnkleSpring.spring = ankleStrength;
-        rightAnkle.spring = rightAnkleSpring;
+    // Sets a specific body part to set angle and strength
+    void setBodyPartPosition(float angle, float strength, BodyPart part)
+    {
+        int i = (int) part;
+        jointSprings[i].targetPosition = angle;
+        jointSprings[i].spring = strength;
+        hingeJoints[i].spring = jointSprings[i];
     }
 
     void checkRegrabs()
