@@ -1,17 +1,28 @@
-# newer-noomi-clone
-hopefully this works
+# Noomibot Clone
+This is a recreation of the semi-obscure Noomibot games.
+We plan to recreate and add on to the original ideas of these games in one collective experience.
 
-bar flipping game etc
 
-TODO
+##TODO
+- [ ] **Menu**
+  - [ ] Options
+    - [ ] Change Noomibot Color
+	- [ ] Change Button Layout
+  - [ ] Game Selection
+    - [ ] Map Selection
+	
+- [ ] **Noomi Bars**
+  - [ ] Bugs
+    - [ ] One arm stays up sometimes when tucking
+	- [ ] Collisions with ground can be sketchy and clip
+  - [ ] Features
+    - [ ] Sticking moves on ground
+	- [ ] Landing Position
+	- [ ] Landing Position Button
+	- [ ] Slow Mo???
+	- [ ] Slow Mo Button???
+  - [ ] More Maps
 
-- make bar park lol - need to make materials and figure out some obstacles that are fun to use. i know we can do better than noomi on this one lol
-- make sky i guess, once again going above and beyond here lol
-- maybe add sounds? old noomi had those
-- menu
-
-potential bugs
-- arch thing
-- sketchy collisions
+- [ ] **Noomi Tumble**
 
 

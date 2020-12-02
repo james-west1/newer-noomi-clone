@@ -1,7 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEditor.SceneManagement;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -17,7 +15,7 @@ public class PlayerController : MonoBehaviour
 
     public bool shouldArch, shouldTuck, shouldStraight, shouldLetGo, shouldReset;
 
-    // Enum for body groups (These correspond to the first position in the hingeJoints and jointSprings arrays
+    // Enum for body groups (These correspond to the first position in the hingeJoints and jointSprings arrays)
     enum BodyGroup
     {
         Shoulders = 0,
@@ -26,7 +24,7 @@ public class PlayerController : MonoBehaviour
         Ankles = 7
     }
 
-    // Enum for body parts (These correspond to positions in the hingeJoints and jointSprings arrays
+    // Enum for body parts (These correspond to positions in the hingeJoints and jointSprings arrays)
     enum BodyPart
     {
         LeftShoulder = 0,
@@ -59,14 +57,14 @@ public class PlayerController : MonoBehaviour
         {
             instance = this;
         }
-        initJoints();
+        InitJoints();
         onBar = true;
         lastBarGrabbed = bar1;
         distanceThreshold = false;
         // no longer need to set max angular velocity higher because there is a way to do that in project settings now, much better
     }
 
-    void initJoints() 
+    void InitJoints() 
     {
         // Initialize joints (Touching this broke the game lmao, so it stays as is)
         leftBarJoint = leftArm.GetComponent<HingeJoint>();
@@ -101,17 +99,17 @@ public class PlayerController : MonoBehaviour
     }
 
     // sets body position of player by setting target positions and strengths of all joints
-    void setBodyPosition(float shoulderAngle, float shoulderStrength, float neckAngle, float neckStrength, float hipAngle, float hipStrength, float kneeAngle, float kneeStrength, float ankleAngle, float ankleStrength)
+    void SetBodyPosition(float shoulderAngle, float shoulderStrength, float neckAngle, float neckStrength, float hipAngle, float hipStrength, float kneeAngle, float kneeStrength, float ankleAngle, float ankleStrength)
     {
-        setBodyGroupPosition(shoulderAngle, shoulderStrength, BodyGroup.Shoulders);
-        setBodyPartPosition(neckAngle, neckStrength, BodyPart.Neck);
-        setBodyGroupPosition(hipAngle, hipStrength, BodyGroup.Hips);
-        setBodyGroupPosition(kneeAngle, kneeStrength, BodyGroup.Knees);
-        setBodyGroupPosition(ankleAngle, ankleStrength, BodyGroup.Ankles);
+        SetBodyGroupPosition(shoulderAngle, shoulderStrength, BodyGroup.Shoulders);
+        SetBodyPartPosition(neckAngle, neckStrength, BodyPart.Neck);
+        SetBodyGroupPosition(hipAngle, hipStrength, BodyGroup.Hips);
+        SetBodyGroupPosition(kneeAngle, kneeStrength, BodyGroup.Knees);
+        SetBodyGroupPosition(ankleAngle, ankleStrength, BodyGroup.Ankles);
     }
 
     // Sets a specific body group to set angle and strength
-    void setBodyGroupPosition(float angle, float strength, BodyGroup group)
+    void SetBodyGroupPosition(float angle, float strength, BodyGroup group)
     {
         for (int i = (int) group; i < (int) group + 2; i++)
         {
@@ -122,7 +120,7 @@ public class PlayerController : MonoBehaviour
     }
 
     // Sets a specific body part to set angle and strength
-    void setBodyPartPosition(float angle, float strength, BodyPart part)
+    void SetBodyPartPosition(float angle, float strength, BodyPart part)
     {
         int i = (int) part;
         jointSprings[i].targetPosition = angle;
@@ -130,7 +128,7 @@ public class PlayerController : MonoBehaviour
         hingeJoints[i].spring = jointSprings[i];
     }
 
-    void checkRegrabs()
+    void CheckRegrabs()
     {
         foreach (GameObject bar in GameObject.FindGameObjectsWithTag("bar"))
         {
@@ -147,19 +145,19 @@ public class PlayerController : MonoBehaviour
 
                 if (distanceThreshold && leftDistance < 0.35 && rightDistance < 0.35)
                 {
-                    regrab(bar);
+                    Regrab(bar);
                 }
             } else
             {
                 if (leftDistance < 0.35 && rightDistance < 0.35)
                 {
-                    regrab(bar);
+                    Regrab(bar);
                 }
             }
         }
     }
 
-    void regrab(GameObject bar)
+    void Regrab(GameObject bar)
     {
         // ignore collisions between arms and bar, otherwise it just doesn't work lol
         Physics.IgnoreCollision(leftArm.GetComponent<Collider>(), bar.GetComponent<Collider>(), true);
@@ -190,12 +188,12 @@ public class PlayerController : MonoBehaviour
     {
         if (!onBar) // if in the air, check potential regrabs
         {
-            checkRegrabs();
+            CheckRegrabs();
         }
 
         if (Input.GetKey(KeyCode.R) || shouldReset) {
             // load scene again to reset
-            EditorSceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("SampleScene");
         }
 
         if (Input.GetKey(KeyCode.UpArrow) || shouldLetGo)
@@ -231,22 +229,27 @@ public class PlayerController : MonoBehaviour
             if (onBar)
             {
                 // weaker arch
-                setBodyPosition(-10, strength, 30, strength * 2, -20, strength, -30, strength * 2, -30, strength);
+                SetBodyPosition(-20, strength, 30, strength * 2, -20, strength, -30, strength * 2, -30, strength);
             } else
             {
                 // stronger arch so he can do wall flips and shit
-                setBodyPosition(-10, strength, 30, strength * 2, -20, strength * 3, -30, strength * 2, -30, strength);
+                SetBodyPosition(-20, strength, 30, strength * 2, -20, strength * 3, -30, strength * 2, -30, strength);
             }
         }
         else if ((Input.GetKey(KeyCode.Space) || shouldTuck) && !onBar) // since tucking makes your hips stronger, don't want to do it on bar
         {
             // tuck
-            setBodyPosition(160, strength, -80, strength * 2, 150, strength * 3, -120, strength * 2, 30, strength);
-        } 
+            SetBodyPosition(160, strength, -80, strength * 2, 150, strength * 3, -120, strength * 2, 30, strength);
+        }
+        else if (!onBar)
+        {
+            // default
+            SetBodyPosition(-20, strength, 30, strength * 2, -20, strength * 3, -30, strength * 2, -30, strength);
+        }
         else
         {
             // default
-            setBodyPosition(150, strength, 0, strength * 2, 120, strength, 0, strength * 2, 30, strength);
+            SetBodyPosition(150, strength, 0, strength * 2, 120, strength, 0, strength * 2, 30, strength);
         }
         
     }
